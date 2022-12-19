@@ -175,8 +175,8 @@ footer-hover-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 # 对于任何额外的视觉自定义，您可以在网站的每个页面中包含额外的 CSS 文件。在此处列出任何自定义 CSS 文件
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+ - "/assets/css/forest.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 # 如果您有应该包含在每个页面中的常见 JavaScript 文件，请在此处列出它们
