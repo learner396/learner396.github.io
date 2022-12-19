@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: 寒海紫鸾
 
 # Your name to show in the footer
-author: Some Person
+author: Olek
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -32,13 +32,18 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
+# 在导航栏中显示的图像 - 最适合方形图像
+# 如果您不希望导航栏中有图像，请删除此参数
 avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+# 默认情况下，图像被切成一个圆圈。您可以通过设置 'round-avatar: false'来禁用此行为
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
+# 如果你想在左上角有一个图片标志，而不是网站的标题，
+# 然后指定以下参数
 #title-img: /path/to/image
 
 
@@ -48,14 +53,17 @@ round-avatar: true
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
+# 选择要在页脚中显示的社交网络链接。
+# 取消注释要显示的链接，并将您的信息添加到每个链接中。
+# 社交网络链接：
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "1683714396@qq.com"
+  # rss: true  # remove this line if you don't want to show an RSS link at the bottom 如果您不想在底部显示 RSS 链接，请删除此行
+  # facebook: deanattali
+  # github: daattali
+  # twitter: daattali
+  # patreon: DeanAttali
+  # youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -78,6 +86,7 @@ social-network-links:
 #  hackerrank: yourname
 
 # If you want your website to generate an RSS feed, provide a description
+# 如果您希望您的网站生成 RSS 提要，请提供描述
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
 
@@ -85,45 +94,57 @@ rss-description: This website is a virtual proof that I'm awesome
 # --- General options --- #
 ###########################
 
-# Select which social network share links to show in posts
+# Select which social network share links to show in posts 
+# 选择要在帖子中显示的社交网络共享链接
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# 如何在页脚中显示指向您网站的链接
+# 如果您不想在页脚中使用链接，请将其删除
+url-pretty: "learner396.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+# 摘录字长 - 将提要页面上每个帖子的摘录截断为指定的字数
 excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
+# 是否在提要页面中显示每篇博客文章的摘录
 feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
+# 是否在提要页面的每个帖子预览下方显示标签列表
 feed_show_tags: true
 
 # Add a search button to the navbar
+# 在导航栏添加搜索按钮
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+# 在页脚中添加一个按钮来编辑当前页面。仅当您的网站托管在 GitHub 上时才有效
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
+# 允许子菜单项（二级导航菜单项）比顶级菜单长
+# 如果关闭此设置，则长子菜单单词可能会被切断
 # See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
-navbar-var-length: false
+navbar-var-length: true
 
 # The keywords to associate with your website, for SEO purposes
+# 与您的网站相关联的关键字，用于 SEO 目的
 #keywords: "my,list,of,keywords"
 
 ######################################
 # --- Colours / background image --- #
 ######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
+# Personalize the colours in your website. Colour values can be any valid CSS colour 
+# 个性化您网站的颜色。颜色值可以是任何有效的 CSS 颜色
 
 navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
@@ -139,25 +160,32 @@ footer-hover-col: "#0085A1"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
+# 或者，可以将导航栏、页脚和页面背景设置为图像
+# 代替颜色
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
+# 建议移动浏览器用作浏览器主题的颜色。只有少数移动浏览器支持此功能。
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+# 对于任何额外的视觉自定义，您可以在网站的每个页面中包含额外的 CSS 文件。在此处列出任何自定义 CSS 文件
 #site-css:
 #  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
+# 如果您有应该包含在每个页面中的常见 JavaScript 文件，请在此处列出它们
 #site-js:
 #  - "/assets/js/custom-script.js"
 
 #################################
 # --- Web Analytics Section --- #
 #################################
+
+#网站分析部分
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
 #gtag: ""
@@ -182,6 +210,8 @@ footer-hover-col: "#0085A1"
 ####################
 # --- Comments --- #
 ####################
+
+# 评论
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 #disqus: ""
@@ -236,6 +266,8 @@ footer-hover-col: "#0085A1"
 # --- Misc --- #
 ################
 
+# 杂项
+
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
@@ -245,6 +277,8 @@ date_format: "%B %-d, %Y"
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #
 #################################################################################
+
+# 你不需要触摸下面的任何东西（但如果你愿意，你可以）
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Toronto"

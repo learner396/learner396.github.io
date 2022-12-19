@@ -1,16 +1,20 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 关于
+subtitle: 这个人有点小隐私，随便看看吧~
 ---
 
-My name is Inigo Montoya. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+## 个人信息
 
-What else do you need?
+- 姓名：陈曦
+- 电话：17683723310
+- 邮箱：1683714396@qq.com
 
-### My story
+> 该博客使用Github Pages搭建，只是让自己有个免费的平台输出自己的学习笔记。
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+> 种一棵树最好的时间是十年前，其次是现在。
+
+> > 不想学习第二遍，所以第一遍习惯总结，之后忘了看了自己的笔记很快就能熟悉。
+
+
