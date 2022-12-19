@@ -96,6 +96,9 @@ rss-description: This website is a virtual proof that I'm awesome
 # --- General options --- #
 ###########################
 
+#允许未来日期
+future: true
+
 # Select which social network share links to show in posts 
 # 选择要在帖子中显示的社交网络共享链接
 share-links-active:
