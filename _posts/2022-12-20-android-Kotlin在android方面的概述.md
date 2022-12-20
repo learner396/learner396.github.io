@@ -10,7 +10,7 @@ permalink: /kotlin00/
 
 使用 Kotlin 进行 Android 开发，可以受益于：
 
-- **代码更少、可读性更强**。花更少的时间来编写代码与理解他人的代码。
+- **代码更少、可读性更强**。花更少的时间来编写代码与理解他人的代码。<font color=#00ff00>sccss</font>
 - **成熟的语言与环境**。自 2011 年创建以来，Kotlin 不仅通过语言而且通过强大的工具在整个生态系统中不断发展。 现在，它已无缝集成到 Android Studio 中， 并被许多公司积极用于开发 Android 应用程序。
 - **Android Jetpack 与其他库中的 Kotlin 支持**。[KTX 扩展](https://developer.android.com/kotlin/ktx) 为现有的 Android 库添加了 Kotlin 语言特性，如协程、扩展函数、lambdas 与命名参数。
 - **与 Java 的互操作性**。可以在应用程序中将 Kotlin 与 Java 编程语言一起使用， 而无需将所有代码迁移到 Kotlin。
