@@ -20,6 +20,7 @@ author: Olek
 ###############################################
 
 navbar-links:
+  标签: "tags"
   目录: "directory"
   收藏: "collection"
   关于我: "aboutme"
@@ -123,7 +124,7 @@ feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
 # 是否在提要页面的每个帖子预览下方显示标签列表
-feed_show_tags: true
+feed_show_tags: false
 
 # Add a search button to the navbar
 # 在导航栏添加搜索按钮
