@@ -187,9 +187,15 @@ img {
   padding-bottom: 0.9375rem;
 }
 
+/* @font-face {
+  font-family: 'nav-nb';
+  src: url(./forest/);
+} */
+
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
+  font-family: 'SourceHanSansSC', 'JetBrains Mono', -apple-system, sans-serif;
   color: {{ site.navbar-text-col | default: "#404040" }};
 }
 

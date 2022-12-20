@@ -36,7 +36,7 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 # 在导航栏中显示的图像 - 最适合方形图像
 # 如果您不希望导航栏中有图像，请删除此参数
-avatar: "/assets/img/1.png"
+# avatar: "/assets/img/1.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 # 默认情况下，图像被切成一个圆圈。您可以通过设置 'round-avatar: false'来禁用此行为
